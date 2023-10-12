@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>happy brithday</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles.css" />
+
+    <style>
+      body {
+        margin: 0;
+        background-color: black;
+      }
+      canvas {
+        position: fixed;
+        z-index: -2;
+        opacity: 80%;
+      }
+    </style>
+    <canvas id="cnv"></canvas>
+    <script src="./main.js"></script>
+    <!-- link for first font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link for first font ending -->
+    <!-- Second link to font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <!-- second link to font ending -->
+    <!-- third font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ending of third font -->
+    <!-- fourth font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ending of fourht font -->
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="text-center display-1">
+        <div class="happy">Happy brithday</div>
+        <div class="happy2">Ada!</div>
+        <div id="heart"></div>
+      </h1>
+      <!-- ending of heart -->
+
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom font3" style="color: blanchedalmond">
+          Biz baxtlimiz chunki Siz:
+        </h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('./images/adam1.jpg')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-3 lh-1 fw-bold opacty font4">
+                  Eng <br />mehribon <br />Ota!
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="d-flex align-items-center me-3">
+                    <small>samarqand</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <small>registon</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('./images/for\ mobile.png')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h3 class="pt-6 mt-5 mb-4 display-3 lh-1 fw-bold opacty font4">
+                  Eng chiroyli, <br />
+                  Eng dono <br />
+                  Ota!
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="d-flex align-items-center me-3">
+                    <small>Parkent</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <small>So'ri</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-darkrounded-4 shadow-lg"
+              style="background-image: url('./images/adam4.jpg')"
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-3 lh-1 fw-bold opacty font4">
+                  Barcha <br />
+                  uchun <br />
+                  namuna
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="d-flex align-items-center me-3">
+                    <small style="color: aliceblue">Yangabod</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <small style="color: aliceblue">yolida</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- begin of photo ket ma ket -->
+      <div class="px-4 py-5 my-5 text-center white-text">
+        <h1 class="display-5 fw-bold white-text display-1">
+          Hammasi uchun rahmat!❤️❤️❤️
+        </h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 white-text display-5">
+            Bu dunyoda men uchun eng kerakli inson, eng jasur, eng adolatli
+            inson bu siz bo'las. Doimo shunday baxtli bo'b yurishingiz uchun men
+            kelajakda bor kuchimi beraman. Ayam bilan doimo baxtli boylar.
+            Kamida 100 larga kiring. Bizi bahtimizga doimo yonimizda boling!<br />❤️❤️❤️❤️❤️❤️❤️❤️❤️
+          </p>
+        </div>
+      </div>
+      <!-- begining of carusel -->
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/carusel1.jpg"
+              class="d-block w-100"
+              alt="carusel1.jpg"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/carusel2.jpg"
+              class="d-block w-100"
+              alt="carusel2.jpg"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/carusel3.jpg"
+              class="d-block w-100"
+              alt="carusel3.jpg"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/carusel4.jpg"
+              class="d-block w-100"
+              alt="carusel4.jpg"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/carusel5.jpg"
+              class="d-block w-100"
+              alt="carusel5.jpg"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Oldingi</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Keyingi</span>
+        </button>
+      </div>
+      <!-- ending of carusel -->
+      <!-- end of container -->
+    </div>
+  </body>
+</html>
